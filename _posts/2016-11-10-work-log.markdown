@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "Example Work Entry!"
+date:   2016-11-10 22:21:43 -0500
+categories: jekyll update
+---
+
+I would never use this as a work log. But just as an example see if it works
+
+This page did not regenerate the site?
+
+

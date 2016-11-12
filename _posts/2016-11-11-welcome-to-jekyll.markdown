@@ -20,6 +20,31 @@ print_hi('Tom')
 
 Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
 
+In a Terminal tab, start a local server with: 
+{% highlight bash %}
+bundle exec jekyll serve
+{% endhighlight %}
+
+The default behaviour is to watch for changes: We do not need the following.
+When you save a file, the site gets generated automatically.  Not you still have to refresh the browser.
+
+
+Not sure why you have have the seperate watch now.
+Start a new terminal tab and run the command, this will auto generate whne you change your site
+{% highlight bash %}
+jekyll build --watch
+{% endhighlight %}
+
+
+Do not follow instructions in the Genfile to use github_pages.
+The site works without the changes.  I had issues when trying to following the recommendations in teh Gemfile.
+{% highlight ruby %}
+# If you want to use GitHub Pages, remove the "gem "jekyll"" above and
+# uncomment the line below. To upgrade, run `bundle update github-pages`.
+# gem "github-pages", group: :jekyll_plugins
+{% endhighlight %}
+
+
 [jekyll-docs]: http://jekyllrb.com/docs/home
 [jekyll-gh]:   https://github.com/jekyll/jekyll
 [jekyll-talk]: https://talk.jekyllrb.com/
