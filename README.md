@@ -7,3 +7,6 @@ Try Out Github Pages
 -  ~ $ jekyll new myblog
 -  ~ $ cd myblog
 -  ~/myblog $ bundle exec jekyll serve
+
+On Git this site is hosted on 
+https://farooqsadiq.github.io/try-out-pages/
